@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="estilos2.css">
+  <meta name="description" content="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+  <div class="megadiv ancho">
+    <header>
+        <img src="pullrequest-logo.svg" alt="">
+      <div class="bars"><a id="iconomenu"><i class="fa-solid fa-bars"></a></i></div>
+    </header>
+    <br>
+    <nav class="dog34" id="cajamenu">
+      <ul class="lista">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Empresa</a></li>
+        <li><a href="">Servicios</a></li>
+        <li><a href="">Clientes</a></li>
+        <li><a href="">Ubicacion</a></li>
+        <li><a href="">Contactanos</a></li>
+      </ul>
+    </nav>
+    <br>
+    <section class="dog">
+      <article class="bru">
+        <h1>Creacion de paginas web</h1>
+        <br>
+        <h2>Curso basico de HTML% y CSS3</h2>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sapiente aperiam quidem commodi consequuntur molestiae dignissimos minima aliquid voluptatum repudiandae explicabo molestias tempora quod, quam, cum, facilis ipsum incidunt in?</p>
+        <br>
+        <a id="boton">Ver</a>
+      </article>
+      <figure class="bru2" id="imagen">
+        <img src="foto_pullrequest.svg" alt="">
+      </figure>
+    </section>
+    <br class="juas">
+    <footer>
+      <p>@LucioOsalde</p>
+    </footer>
+
+  </div>
+
+  <script>
+    //Scrip para el menu desplegable
+    $("#iconomenu").click(function(){
+      $("#cajamenu").slideToggle();
+    });
+    $("#boton").click(function(){
+      $("#imagen").slideToggle();
+    });
+  </script>
+
+</body>
+</html>

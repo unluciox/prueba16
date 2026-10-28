@@ -1,0 +1,43 @@
+@media (max-width: 480px) {
+  header{
+    gap: 200px;
+    height: 70px;
+    max-width: 100%;
+  }
+  header img{
+    max-width: 200px;
+  }
+  .lista{
+    flex-direction: column;
+    gap: 0px;
+  }
+  #cajamenu{
+    display: none;
+  }
+  .lista li{
+    border: 0px;
+    border-bottom: 1px grey solid;
+    border-radius: 0px;
+  }
+  .dog{
+    flex-direction: column-reverse;
+  }
+  .bru2{
+    max-width: calc(100% - 10px);
+  }
+  .bru2 img{
+    max-width: calc(100% - 20px);
+  }
+  .bru h1, h2{
+    align-self: center;
+  }
+  .bru h1{
+    font-size: 30px;
+  }
+  .bru h2{
+    font-size: 20px;
+  }
+  .bru p{
+    font-size: 12px;
+  }
+}
