@@ -37,6 +37,7 @@ header{
 }
 header img{
   max-width: 300px;
+  margin-left: 30px;
 }
 .lista{
   list-style-type: none;
